@@ -133,7 +133,22 @@ veridix/
 ├── requirements.txt
 └── README.md
 ```
+## Example Outputs
 
+### REAL — Ukraine-Russia Peace Talks
+<img width="1158" height="882" alt="Screenshot 2026-06-28 221744" src="https://github.com/user-attachments/assets/dd62054c-a65f-4802-a159-e8b8b57640b9" />
+
+
+### FAKE — Sensational Political Clickbait
+<img width="1162" height="887" alt="Screenshot 2026-06-28 221811" src="https://github.com/user-attachments/assets/a59209bc-f1e0-4030-aff2-432140870f93" />
+
+### PARTIAL — Unverified Claims with Low Confidence
+<img width="1033" height="873" alt="Screenshot 2026-06-28 221845" src="https://github.com/user-attachments/assets/5f2c554c-41b1-418c-bce2-c7331622820b" />
+
+
+> These examples demonstrate the three verdict types Veridix returns —
+> each with a credibility score, analysis metrics, LLM-generated summary,
+> and retrieved evidence links.
 ---
 
 ## API
