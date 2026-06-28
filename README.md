@@ -174,16 +174,6 @@ Response:
 {"status": "ok", "model_loaded": true}
 ```
 
----
-
-## Limitations
-
-- **Dataset bias**: ISOT distinguishes Reuters wire articles from hyperpartisan blogs. Sophisticated disinformation that mimics wire-service style may not be caught.
-- **Evidence links**: Dependent on Serper API rate limits. Falls back to Google News search URL when quota is exceeded.
-- **LLM explanations**: Gemini/Groq explain the verdict; they don't determine it. Rate limits only affect explanation quality, not accuracy.
-
----
-
 ## Dataset
 
 ISOT Fake News Dataset — University of Victoria  
