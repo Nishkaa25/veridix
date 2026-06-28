@@ -1,0 +1,50 @@
+# Environment & API keys — NEVER push these
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Model files — too large for GitHub (>100MB limit)
+models/
+*.pkl
+*.npz
+*.npy
+
+# Vectorized data
+News_dataset/vectorized/
+News_dataset/processed_news.csv
+
+# Raw dataset CSVs — too large, user downloads from Kaggle
+News_dataset/True.csv
+News_dataset/Fake.csv
+
+# Node / React
+node_modules/
+dist/
+.next/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
