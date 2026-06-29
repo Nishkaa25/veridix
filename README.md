@@ -49,8 +49,8 @@ Trained and evaluated on the [ISOT Fake News Dataset](https://www.kaggle.com/dat
 | ML model | scikit-learn `PassiveAggressiveClassifier` + isotonic calibration |
 | Feature extraction | TF-IDF (50k features, bigrams, sublinear TF) |
 | Preprocessing | NLTK (lemmatization, stopwords) |
-| Primary LLM | Google Gemini 2.5 Flash |
-| Fallback LLM | Groq LLaMA 3 70B |
+| XAI - explanation | Google Gemini 2.5 Flash |
+| XAI - Fallback LLM | Groq LLaMA 3 70B |
 | Evidence search | Serper Dev API (Google Search) |
 | Backend | FastAPI + Uvicorn |
 | Frontend | React + TypeScript + Tailwind CSS + Chart.js |
